@@ -13,6 +13,7 @@ import image6 from './assets/image6.jpeg'
 import image7 from './assets/image7.jpeg'
 import image8 from './assets/image8.jpeg'
 import image9 from './assets/image9.jpeg'
+import image10 from './assets/image10.jpeg'
 
 function App(){
   const [user,setUser]=useState(false)
@@ -155,6 +156,10 @@ You got possessive too when you heard that guy chatting for 6 hours 😂 — and
         </p>
       </div>
       <section className='section' data-aos="flip-left">
+         <div>
+          <img className='image9' src={image10} alt="" />
+
+        </div>
         <div className='card3d'>
           {
             !user && <p onClick={user1} className='car1'>Are you excited to see wonderfull fact? click the card</p>
