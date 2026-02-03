@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react'
 import './App.css'
 import AOS from 'aos'
 import Audio from './Audio.jsx'
+import PasswordGate from './Password.jsx'
 import 'aos/dist/aos.css'
 import DaysSinceMet from './DaysSinceMet.jsx'
 import image1 from  './assets/image1.jpg'
@@ -16,6 +17,9 @@ import image9 from './assets/image9.jpeg'
 import image10 from './assets/image10.jpeg'
 
 function App(){
+  
+
+  
   const [user,setUser]=useState(false)
   const user1=()=>{
     setUser(true)
@@ -33,6 +37,7 @@ function App(){
   return(
     
     <>
+    <PasswordGate>
     
     <nav className='nav' data-aos="fade-down" >
       <h1>KIRUKII & KIRUKAN </h1>
@@ -188,7 +193,7 @@ Forever and ever till the sky runs out of clouds ☁️💫.Our friendship is mo
 
     </div>
     
-    
+   </PasswordGate>
     </>
   )
 }
