@@ -181,9 +181,46 @@ You got possessive too when you heard that guy chatting for 6 hours 😂 — and
           
         </div>
       </section>
+      <div className="para1" data-aos="fade-up">
+      
+        
+        <p>
+         Paa 💖✨ you opened up about your first love and told me how it ended 🥺💔😔 I know you’ve gone through a lot in your past paa 😢💭💔 I promise you I won’t bring up your past again 🤝❤️💯 I’ll always stand by you as your backbone 💪🔥💞 I’ll always be there for you and support you chlmii 💖🌸✨
+January just passed like that with exams 📚😵 leave 🏖️ and missing each other 😔💭💗 Then came February 2nd we both came for PBL 😄✨ same venue at first 😍 but later it got changed 😅 I was in A block 🏫 and you were in Mech block ⚙️ still during that 15 minute break we kept coming to see each other 🥹👀💞 Even though we had some fights 😤🔥 we still kept choosing each other 💖🤝💫
+
+        </p>
+        <h1 className='twist'>The biggest twist in our journey</h1>
+        <p>The biggest twist in our life happened on February 13th 📅💗 we were on a video call 📱💞 I was studying 📚😌 and you were free so you were watching reels 😄🎥💫 I started listening to songs 🎶🎧 and suddenly I called you owner amma 🥺❤️💭 I don’t even know why I said that but those are things I imagine doing with my wife 💍💖✨ When you say you are mine it makes me feel really special paa 🫶💗🥹
+Sometimes I feel scared thinking what if you won’t be mine in the end 😔💔💭 Whenever I hear that song Ennodo Nee Irundhaal 🎶😭 I only think about you and it makes me emotional 😢💗🌙
+That day you asked through Sibi if you didn’t have a past would you have said okay to me 🥺💭 I didn’t even ask your answer properly 😔 but you said maybe in 1 to 2 years you would have said okay 💫💖 That made me feel both happy and a little sad 😭💞💔 Then you asked if I would come to see your parents if you said like that 😳🏠 from that moment I didn’t keep too many expectations 💭😔
+That night February 13 around 11 35 pm 🌙✨ I told you this song is dedicated to my future wife 🎶💖💍 and you started to feel something 🥺💗💫 And earlier DK asked me what I would do if in future Varshini akka asked me 🤔💭 and without even thinking I said I would marry her 💍🔥❤️
+When I told you that you started crying 😢💔😭 I didn’t understand why and kept thinking if I said something wrong 😔💭 That evening I even made a small bet with Jaswanth 😅🍫 about Feb 14 🎉 but later I also felt emotional and started crying thinking about everything 😢💔💭
+After you slept I kept thinking about you and felt really bad 💔😔 I cried in the restroom 🚻😭 and that whole night both of us slept with tears 😢🌙💞
+When you said you missed me 🥺💗 I was hoping you might say I love you ❤️🥹 but I misunderstood again and just slept 😔💔
+Next morning you sent Happy Valentine’s Day pattu 💌🌹💖 I didn’t understand it fully so I just replied casually 😶💭 Later when you said destiny decides and your message will stay in your heart 💭🔐💗 I got confused 😕💭 but also felt that you had feelings for me 💖✨🥹
+On February 14 at 12 31 ⏰💞 I officially committed with Varshu 💍❤️🎉 Everyone like Irfan DK and Joy were really happy 😄🥳💫 for us
+</p>
+      </div>
+      <div className="card3d2" >
+      <p>This song is for you… 💫 you came into my life so unexpectedly, but now you mean everything to me ❤️✨</p>
+      <Audio1/>
+    </div>
+    <div className='para1'>
+      <p>
+        After that we started our journey together 💑🌍💖 Days went nicely with small fights 😤💔 and cute moments 🥰💕✨ we started enjoying our time together 💖🌸💫
+When you went to Muthamizh Mandram 🎭😄✨ you were enjoying so I didn’t disturb you but I missed you a lot 😔💔💭 You know I spoke with Sibi for 2 hours 📞😌 but that was just to help solve your trio gang issue 🤝💞💫 I didn’t tell you that and it led to a fight 😢🔥 but it was just a misunderstanding 💭😔
+Even with all that we spent good time together in SREC 🏫💖 and canteen ☕🥰💞 those were really nice moments 🥹✨🌸
+We had many fights 😤💔🔥 but at the end we would hug and sleep 🤗💞🌙 and that made our bond stronger 💖💪✨
+Even during the long 15 days leave 📅💭 we stayed connected and made our bond stronger 💪❤️💫
+I promise you paa whatever anyone says about our decision we will stay strong 💯🔥❤️ We will be together you are the only one Mrs Logi 💍👑💖✨
+I love you di papii 💖😘💞🔥✨
+And somewhere in between I started calling you maa 🥺❤️👩‍👦✨ because it made you feel closer to my heart just like my mom 💖💫
+      </p>
+    </div>
+        <div className="image4"  data-aos="flip-left"><img src={image11} alt=""/><img src={image12}  alt="" /></div>
 
       
-
+    
     <div className='conclusion' data-aos="fade-up">
       <p>Now, even after all these fights and misunderstandings 😅, we always come back together 🩵. Because truth is —
 Kirukii can’t live without Kirukan, and Kirukan can’t live without Kirukii! 💞💞
