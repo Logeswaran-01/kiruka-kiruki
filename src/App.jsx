@@ -249,7 +249,7 @@ I don’t know why… but whenever I see another guy around you, I become extra 
       <img className='image6' src={image14} alt="" />
     </div>
     <div className='card3d' >
-      <p className='car1'>From my first birthday to forever, every smile, every memory, and every moment makes life more beautiful 💖🎂</p>
+      <p className='car1'>From ur first birthday to forever, every smile, every memory, and every moment makes life more beautiful 💖🎂</p>
 
     </div>
     </section>
@@ -268,7 +268,9 @@ Then suddenly your Logi got fever. 🤒💔 But even then, he waited only for hi
     </div>
     <div className='card3d' >
       {
-            !user2 && <p onClick={user3} className='car1'>Are you excited to see wonderfull fact? click the card</p>
+            !user2 && <p onClick={user3} className='car1'>✨ A little magical surprise is waiting for you, thangam 🥹🤍
+Tap the card and discover something special made with love 🎁💖
+</p>
           }
           {
             user2 && <p>
