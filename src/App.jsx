@@ -3,9 +3,11 @@ import './App.css'
 import AOS from 'aos'
 import Audio from './Audio.jsx'
 import Audio1 from './Audio1.jsx'
+import Happypopup from './Happypopup.jsx'
 import PasswordGate from './Password.jsx'
 import 'aos/dist/aos.css'
 import DaysSinceMet from './DaysSinceMet.jsx'
+import video from './Video.jsx'
 import image1 from  './assets/image1.jpg'
 import image2 from './assets/imag2.jpg'
 import image3 from './assets/image2.jpg'
@@ -18,13 +20,17 @@ import image9 from './assets/image9.jpeg'
 import image10 from './assets/image10.jpeg'
 import image11 from './assets/image11.jpeg'
 import image12 from './assets/image12.jpeg'
+import image13 from './assets/image13.jpeg'
+import image14 from './assets/image14.jpeg'
+import DaysSinceLove from './DaysSinceLove.jsx'
 function App(){
-  
-
-  
+  const [user2,setUser2]=useState(false)
   const [user,setUser]=useState(false)
   const user1=()=>{
     setUser(true)
+  }
+  const user3=()=>{
+    setUser2(true)
   }
   useEffect(()=>{
     AOS.init({
@@ -219,8 +225,76 @@ And somewhere in between I started calling you maa 🥺❤️👩‍👦✨ beca
     </div>
         <div className="image4"  data-aos="flip-left"><img src={image11} alt=""/><img src={image12}  alt="" /></div>
 
-      
-    
+      <div className="para1" >
+        <p>Papiii… now I finally understand everything little by little. 💖✨🥺 When I sit alone quietly and think about us, so many memories start running inside my mind at the same time. 😭💭 From the smallest conversations to the biggest fights… from random smiles to emotional tears… everything feels so precious to me now. 🫂❤️✨ Sometimes I randomly smile remembering our happy moments 😊💕 and sometimes my eyes become teary thinking about how much we both struggled emotionally just to protect this relationship. 😭❤️‍🩹 But through everything, one thing never changed — my love for you. 🌍❤️♾️
+We’ve had so many fights after February 14… but honestly, every single fight taught us something important about each other. 🥺💭 Every misunderstanding showed us how deeply we cared. 💞 Every argument made our bond stronger in some way. ❤️‍🔥✨ Thangame, I love you so much da. More than words can explain. 🥺💕 Before SREC Supra too, we used to fight a lot, but even then we never wasted our time with each other. 🫂💖 Somehow, even after every fight, we always came back to each other again with more love. 😭💞✨ All those little fights, emotional moments, late-night talks 🌙📞, misunderstandings 😔, random crying sessions 😭💔, possessiveness 🥺❤️, care 🤍, and endless love 💖 have now become beautiful memories for me, papii. 🌸✨
+Papi, honestly before you came into my life, I was handling everything alone. 😔💭 I never really showed my emotions openly to people. I used to keep everything inside my heart and silently deal with my pain alone. 💔🥺 Sometimes I would overthink even the smallest things until it completely destroyed my peace. 😭💭 I know I had many problems within myself. I had anger 😤, confusion 😵‍💫, insecurities 💔, emotional attachment 🫂💕, and fear of losing people I love. Most of the fights between us happened because of my overthinking only, ma. 😭❤️‍🩹 I used to imagine unnecessary things and hurt both myself and you. But now I’ve started changing little by little because of you. 🌸💖
+Now I try to speak honestly with you instead of hiding everything inside my heart. 🫂✨ I started expressing my feelings more openly because you made me feel safe emotionally. ❤️ Sometimes anger still comes 😤💭 and sometimes I still become emotional suddenly 😭💔 but I promise I’m trying every single day to become a softer and better person for us. 🥺💕 Because you deserve the calmest and purest version of my love. 🌍❤️
+After the holidays started, I was waiting only for April 10. 😭📅✨ Every single day I kept checking the calendar with so much excitement and happiness. 🥺💞 I was imagining how beautiful that day would become. 🌸❤️ I had already prepared gifts 🎁💝, wishes 💌✨, surprises 🎊💕, and everything with so much love and eagerness. 😭💖 Finally, April 10 arrived… and I presented that video exactly the way I dreamed about. 🎥❤️✨ That video was not just a normal video for me. 🥺 It carried all my emotions 💭💖, memories 📸✨, feelings 🫂💕, and love for you. 🌍❤️ Through that video, I wanted you to understand how deeply I love you and how important you are in my life. 😭💞 I hope you truly liked it, papii. 🥺❤️ And then your 18 gifts finally reached you too. 🎁🎀💝✨ I was waiting so badly to see your reactions. 😭💕 I think you enjoyed them a lot… but still… just in case… 👀💞 Did you enjoy them or not? 😭💕 Click Yes or No.</p>
+      </div>
+    <div >
+      <Happypopup/>
+    </div>
+    <div className="para1">
+      <p>✨ Eeeee… but honestly, you can never press “No,” okayyyy? 😭💖💞
+Then days slowly passed. 🌸⏳ Sometimes full of love 💖, sometimes full of fights 😭💔, misunderstandings 😔, tears 💧, emotional breakdowns 🥺, and random mood swings 😵‍💫. But no matter what happened, at the end of every day, it was always “us.” 🫂❤️✨ Always you and me together. 💞🌍 Sometimes we fought badly 😭💔 and stopped talking for some time… but even during those silent moments, my heart was still only searching for you. 🥺💭 Even when I acted angry, deep inside I only wanted your love and reassurance. ❤️‍🩹✨
+Papi, these past few months were honestly very difficult for both of us. 😭💔 Somewhere in between our issues, third persons entered our problems too. 😔 Maybe you allowed it sometimes… maybe I allowed it too… but despite all that confusion, we still held onto each other tightly. 🥺🫂❤️ Before the holidays started, we had one of the biggest fights between us. 😭💔 Even though I knew you were going to your hometown, instead of understanding your situation calmly, I spoke emotionally and hurt you with my words. 🥺💭 Even now, whenever I think about that fight, tears come to my eyes. 😭💧 I’m really sorry for that, ma. 🫂❤️ I should have understood your situation better instead of reacting emotionally. 🥺💔
+Papi, usually I don’t keep expectations from people because I’m scared of getting hurt. 💔🥺 But sometimes, in very tiny things, I unknowingly expect small efforts 🌸, small attention 💞, small love ❤️, or small reassurance 🫂 from you. And when those things don’t happen the way I imagined, I become upset and disappointed. 😭💔 I know I emotionally fail like that again and again, and I’m really sorry for hurting you because of my expectations. 🥺❤️‍🩹 Sometimes I just wanted to feel important in your life all the time. 💭❤️ Even small things from you made me extremely happy because your love means everything to me. 🫂💞
+Then during the holidays, another huge fight happened. 😭💔 At one point, you even felt scared and thought, “If we fight this much now itself, what will happen after marriage?” 🥺💍 Hearing that broke me completely because I never wanted you to feel scared about our future. 😭💔 I’m really sorry for making you emotionally exhausted so many times, papii. 🫂❤️ But today, from the bottom of my heart, I promise you this — I’ll protect our relationship better in the future. ❤️✨ I don’t want our love story to become painful because of unnecessary fights anymore. 💞🌸 I want us to grow together peacefully while still loving each other like crazy. 😭❤️‍🔥
+And one more thing… I want this website to become a showcase of our complete story. 🌍💖✨ Not only our happiest moments 😭💕, but also our darkest moments 🌧️💔, hardest days 😔, biggest fights 😭, deepest tears 💧, and emotional struggles too. Because our love story is beautiful not because it is perfect… but because even after all those difficult moments, we still chose each other again and again. 🫂❤️♾️ That is what makes our story special. 🌸💖✨ I want every page of that website to hold our emotions, our memories, our love, our pain, and our growth together. 📸💕✨
+I don’t know why… but whenever I see another guy around you, I become extra possessive. 😭❤️‍🔥 I know you always maintain your limits properly. 🥺✨ I trust you completely. 💞 The problem is only my possessiveness becomes too much sometimes because I love you so deeply and I’m scared of losing you even in my imagination. 😭💔 Even seeing someone getting too close to you makes my heart uncomfortable sometimes. 🥺💭 I keep saying I’ll change soon… but honestly, it’s difficult because my heart becomes protective whenever it comes to you. 🫂❤️ Still, I promise I’ll slowly become better and healthier emotionally for us. 🌸💖</p>
+    </div>
+    <section className='section' data-aos="flip-right">
+      <div >
+      <img className='image6' src={image14} alt="" />
+    </div>
+    <div className='card3d' >
+      <p className='car1'>From my first birthday to forever, every smile, every memory, and every moment makes life more beautiful 💖🎂</p>
+
+    </div>
+    </section>
+    <div className="para1">
+      <p>
+Then came my birthday… 🎂🎉✨ One of the most unforgettable days of my life. 💖 You made my birthday incredibly special in every possible way. 😭💕 The efforts you took 🥺❤️, the love you showed 💞, the care you gave 🤍, and the surprises you planned 🎁✨ made me feel truly loved. 🫂💖 And papiii… your priceless gifts made me feel like the luckiest person alive. 😭💝 Especially that doll 🧸💕 and your dress 👗❤️… those gifts carried your emotions inside them. 🥺💖 When I saw them, I cried so much because I realized how lucky I am to be loved by someone like you. 😭❤️ Thank you so much for every single effort you took for me, papiii. 🫂💞✨
+And then came the unforgettable days from May 7 to May 10. 😭💔 Those were probably the most emotional days for both of us. 🥺💭 There were so many tears 💧😭, so much pain 💔, confusion 😔, emotional breakdowns 🫂, and overthinking 😵‍💫. I tried my best to stay patient and handle everything carefully because I didn’t want to lose you at any cost. 🥺❤️ Only we both know how much we cried during those three days. 😭💞 But after all those tears… there was only love 💖, affection 🫂💕, cuddles 🤍, reassurance 🌸, and endless konjals between us again. 🥹💞✨ Those days taught me that no matter how badly we fight, our love still finds a way back to each other. ❤️♾️
+Then academics started again. 📚✨ Even normal moments became beautiful because you were there with me. 💕 Chemistry lab 🧪❤️, random class moments 😭✨, eye contacts 👀💞, smiles 😊💕, small conversations 🫂, silent caring 🤍, and spending time near you made everything feel special. 🌸💖 College itself started feeling beautiful because of your presence. 🥺❤️ Even simple moments like sitting near you, seeing you randomly, or hearing your voice became enough to make my whole day better. 😭💕
+And omg… I almost forgot one very important memory. 😭💋 On May 11 at exactly 12:35 PM, in front of the EIE block… that kiss happened. 💖✨ It wasn’t just a kiss for me… it was “vaaiyodu vaai pathithal.” 🥺❤️‍🔥 Maybe it wasn’t 100% perfect, maybe it was clumsy 😭💕, nervous 🥺💓, and emotional… but still, it became one of the most unforgettable moments of my life. ✨💞 My heart was beating so fast at that moment. 💓😭 Even now, whenever I remember it, I smile like an idiot. 😭💖
+Then suddenly your Logi got fever. 🤒💔 But even then, he waited only for his papii patiently… 🥺❤️ and for that waiting, he received three more “vaaiyodu vaai pathithals.” 😭💋💋💋 Honestly, those little moments became priceless memories for him forever. ♾️💖
+</p>
+    </div>
+    <section className='section' data-aos="flip-right">
+      <div >
+      <img className='image6' src={image13} alt="" />
+    </div>
+    <div className='card3d' >
+      {
+            !user2 && <p onClick={user3} className='car1'>Are you excited to see wonderfull fact? click the card</p>
+          }
+          {
+            user2 && <p>
+<DaysSinceLove />
+            </p>
+
+          }
+          
+    </div>
+    </section>
+  <div className="para1">
+    <p>Days kept moving beautifully after that. 🌸✨ And now… your Logi is genuinely so happy. 😭❤️ No matter how many problems came between us, his girl never left him 🫂💞, never gave up on him ❤️, never stopped loving him 💖, and never let him fight alone. 🥺✨ Even now, papi still has poss
+essiveness over him… and secretly, he loves that possessiveness too because it makes him feel loved and important. 😭💕
+Days continued passing beautifully… 🌸⏳ and once again, holidays started for 7 days. ✨ Then finally… May 24 arrived. 💖✨ It became one of the most emotional and special moments for me because it reminded me of everything we survived together. 🥺❤️ From strangers to becoming each other’s comfort place… from fights to healing… from tears to smiles… from confusion to understanding… we truly came so far together. 🫂💞✨
+Thank you for everything, dear. 🌍❤️ Thank you for staying beside me during my worst phases. 🥺💞 Thank you for understanding me even when I became difficult to handle. 😭❤️ Thank you for loving me through my anger 😤, overthinking 😵‍💫, insecurities 💔, possessiveness 🥺❤️, and emotional breakdowns. 😭💞 Thank you for never giving up on us no matter how difficult things became. 🫂❤️ Thank you for becoming my comfort place 🏡💖, my happiness 😊💕, my peace 🌸, my safest person 🫂❤️, and my favorite human in this entire world. 🌍💞✨
+No matter what happens in life, no matter how many fights or problems come in the future… these memories 📸✨, these moments 💖, these tears 💧, this love ❤️, and every second we spent together will always remain one of the most precious parts of my life forever. ♾️❤️ And no matter how much time passes… I’ll still choose you again and again, every single time, papii. 🫂💖✨🌸❤️
+pa</p>
+  </div>
+  <div className="card3d2">
+    <a href="https://res.cloudinary.com/drhib3yg1/video/upload/v1779625788/video1_vveben.mp4">💖 Happy 100th day, thangam! This is your small surprise gift from your papi 🥹🤍
+A tiny creation made with lots of love, memories, and happiness just for you 🌸✨
+
+🎁 Tap the card to see your gift, chellam 🤍
+
+</a>
+  </div>
     <div className='conclusion' data-aos="fade-up">
       <p>Now, even after all these fights and misunderstandings 😅, we always come back together 🩵. Because truth is —
 Kirukii can’t live without Kirukan, and Kirukan can’t live without Kirukii! 💞💞
